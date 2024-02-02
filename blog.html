@@ -1,0 +1,63 @@
+<!-- Esta etiqueta le dice al motor que es un documento de tipo HTML5-->
+<!DOCTYPE html>
+<!--Donde lang le especifica al motor el idioma donde devera indexar el sitio-->
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Mi primer Blog en html5</title>
+	<link rel="stylesheet" href="estilos.css">
+
+    <style>
+    /* Estilo para la imagen redonda */
+    .imagen-redonda {
+      border-radius: 50%;
+      width: 150px; /* Ajusta el tamaño de ancho */
+      height: 150px; /* Ajusta el tamaño de alto */
+    }
+  </style>
+
+</head>	
+<body>
+
+	<header>
+		<h1>Mi blog Personal aprendiendo programación Web</h1>
+
+		<!-- Tu imagen con la clase que hemos definido -->
+    <img src="yo.jpg" alt="Imagen Redonda" class="imagen-redonda">
+	</header>
+	<nav>
+		<ul><!--Lisata desrdenaa-->
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Acerca de </a></li>
+			<li><a href="#">Contacto</a></li>
+		</ul>
+	</nav>
+	<main>
+		<article>
+			<h2>¿Qué es la progamación web?</h2>
+			<p>Fecha de publicación: 01/02/24</p>
+			<section>
+				<p>Se trata del proceso por el cual desarrollas y diseñas una página web....</p>
+			</section>
+		</article>
+		<article>
+			<h2>Frontend</h2>
+			<p>Fecha de publicación: 01/02/24</p>
+			<section>
+				<p>Es la parte que interactúa con el usuario, tanto en imagen como en función.</p>
+			</section>
+		</article>
+		<article>
+			<h2>Backend</h2>
+			<p>Fecha de publicación: 01/02/24</p>
+			<section>
+				<p>Se refiere a la parte que está en contacto directo con el servidor; es donde se aplica el código de programación para crear la estructura. Permanece en un segundo plano a cargo de la accesibilidad, actualización, bases de datos y cambios del sitio.</p>
+			</section>
+		</article>
+	</main>
+	<footer>
+		<p>  2024 Mi Blog Minimalista. Todos los derechos de autor reservados.</p>
+	</footer>
+</body>
+</html>

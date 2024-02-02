@@ -1,0 +1,64 @@
+body{
+	font-family: Arial, Tahoma;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+	color: #1693a5;
+	background-color: #d8d8c0;
+}
+
+header{
+	background: #b8aa95;
+	color: #181619;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #5e5a54 3px solid;
+}
+
+header h1{
+    text-align: center;
+}
+nav ul{
+	background: #697060;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	color: #fff;
+	padding: 15px 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background: #0779e4;
+}
+main{
+	padding: 20px;
+}
+main > article{
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.imagen-redonda {
+  border-radius: 50%;
+  width: 100px; /* Ajusta el tamaño según tus necesidades */
+  height: 100px; /* Ajusta el tamaño según tus necesidades */
+  display: block; /* Para que los márgenes automáticos funcionen */
+  margin: 0 auto; /* Márgenes automáticos para centrar horizontalmente */
+}
